@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>병원관리시스템</title>
+        <style>
+            html, body {
+                height:100%;
+            }
+
+            section {
+                position:absolute;
+                top:0%;
+                left:0;
+                width:100%;
+                height:100%;
+            }
+
+            div {
+                position:absolute;
+                top:0;
+                left:0;
+                right:50%;
+                bottom:50%;
+                background-color:rgba(16, 228, 55, 0.3);
+                margin: 10px 10px 10px 10px;
+                border: black 1px solid
+            }
+
+            div:nth-of-type(2) {
+                top:0;
+                left:50%;
+                right:0;
+                bottom:50%;
+            }
+
+            div:nth-of-type(3) {
+                top:50%;
+                left:0;
+                right:50%;
+                bottom:0;
+            }
+
+            div:nth-of-type(4) {
+                top:50%;
+                left:50%;
+                right:0;
+                bottom:0;
+            }
+
+            p {
+                text-align:center;
+                color:navy;
+                font-size: x-large;
+                font-weight: 600;
+            }
+
+            a:link { text-decoration: none;}
+
+            a:visited { text-decoration: none;}
+
+            a:hover { color: blue; text-decoration: underline;}
+
+        </style>
+    </head>
+    <body>
+        <section>
+            <div OnClick="location.href ='병원관리시스템_예약관리.php'" style="cursor:pointer;">
+                <a href="병원관리시스템_예약관리.php"><p>예약관리</p></a>
+            </div>
+            <div OnClick="location.href ='병원관리시스템_완료일정관리.php'" style="cursor:pointer;">
+                <a href="병원관리시스템_완료일정관리.php"><p>완료일정관리</p></a>
+            </div>
+            <div OnClick="location.href ='병원관리시스템_인사관리.php'" style="cursor:pointer;">
+                <a href="병원관리시스템_인사관리.php"><p>인사관리</p></a>
+            </div>
+            <div OnClick="location.href ='병원관리시스템_환자관리.php'" style="cursor:pointer;">
+                <a href="병원관리시스템_환자관리.php"><p>환자관리</p></a>
+            </div>
+        </section>
+    </body>
+</html>
