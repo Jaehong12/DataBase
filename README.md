@@ -1,3 +1,3 @@
 # DataBase
 Hospital management system (EMR)
-<img width="80%" src="https://github.com/Jaehong12/DataBase/assets/115388488/c76c35b0-7334-4552-b400-b7e91e6d5569"/>
+<img width="80%" src="https://github.com/Jaehong12/DataBase/assets/115388488/3762c67e-f6f1-48dd-a40c-93a4f49cd438"/>
